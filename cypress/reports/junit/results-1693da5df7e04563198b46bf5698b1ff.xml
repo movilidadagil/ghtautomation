@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.5870" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-03-21T22:14:24" tests="0" file="cypress/integration/specs/google-search.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Google Navigation" timestamp="2022-03-21T22:14:24" tests="1" time="10.5440" failures="1">
+    <testcase name="Google Navigation Google Search" time="0.0000" classname="Google Search">
+      <failure message="The chainer `not be visible` was not found. Could not build assertion." type="CypressError"><![CDATA[CypressError: The chainer `not be visible` was not found. Could not build assertion.
+    at cypressErr (https://www.google.com/__cypress/runner/cypress_runner.js:176361:18)
+    at Object.cypressErrByPath (https://www.google.com/__cypress/runner/cypress_runner.js:176367:10)
+    at https://www.google.com/__cypress/runner/cypress_runner.js:155852:86
+    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:41485:21)
+    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:50537:14)
+    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:155850:68)
+    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13022:23)
+    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:10296:29)
+    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:155879:63)
+    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:155898:23)
+    at https://www.google.com/__cypress/runner/cypress_runner.js:150897:39
+    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:151258:16)
+    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13022:23)
+    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:12166:18)
+    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:12153:25)
+    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13022:23)
+From Your Spec Code:
+    at Context.eval (https://www.google.com/__cypress/tests?p=cypress/integration/specs/google-search.spec.ts:106:32)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
